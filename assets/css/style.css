@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -49,7 +50,6 @@ nav a{
     padding: 15px;
     text-decoration: none;
     color: black;
-    font-family: Arial, sans-serif;
 }
 
 nav .active a,
@@ -59,8 +59,100 @@ nav a:hover{
 }
 
 section#banner{
+    display: flex;
+    justify-content: center;
     background-image: url('../images/image1.jpg');
     background-position: center;
     background-size: cover;
     height: 670px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1{
+    color: black;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px rgb(116, 116, 116);
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_headline h2{
+    color: black;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px rgb(116, 116, 116);
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner_options{
+    height: 210px;
+    display: flex;
+}
+
+.banner-1,
+.banner-2,
+.banner-3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.banner-1{
+    background-color: rgb(100, 100, 100);
+}
+
+.banner-2{
+    background-color: rgb(65, 65, 65);
+}
+
+.banner-3{
+    background-color: rgb(0, 0, 0);
+}
+
+.banner-title{
+    font-size: 21px;
+}
+
+.banner-desc{
+    font-size: 12px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 20px 0px;
+}
+.banner_options a{
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.hours-options{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0px;
+    border-bottom: 1px solid rgb(143, 143, 143);
+}
+
+.day-options{
+    font-size: 13px;
+}
+
+.open-hours{
+    font-size: 13px;
 }

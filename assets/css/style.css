@@ -1,3 +1,33 @@
-body{
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+a.title-logo{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.menu{
+
 }

@@ -58,3 +58,9 @@ nav a:hover{
     color: white;
 }
 
+section#banner{
+    background-image: url('../images/image1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}

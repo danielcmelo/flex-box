@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     height: 120px;
 }
 
-.container{
+.container {
     width: 990px;
     display: flex;
     justify-content: space-between;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
 }
 
-a.title-logo{
+a.title-logo {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2.5rem;
@@ -29,23 +29,23 @@ a.title-logo{
     color: black;
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
 nav ul,
-nav li{
+nav li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul{
+nav ul {
     display: flex;
 }
 
-nav a{
+nav a {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -53,12 +53,12 @@ nav a{
 }
 
 nav .active a,
-nav a:hover{
+nav a:hover {
     background-color: black;
     color: white;
 }
 
-section#banner{
+section#banner {
     display: flex;
     justify-content: center;
     background-image: url('../images/image1.jpg');
@@ -67,19 +67,19 @@ section#banner{
     height: 670px;
 }
 
-.column{
+.column {
     display: flex;
     flex-direction: column;
 }
 
-.banner_headline{
+.banner_headline {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.banner_headline h1{
+.banner_headline h1 {
     color: black;
     font-size: 70px;
     text-shadow: 0px 1px 0px rgb(116, 116, 116);
@@ -88,7 +88,7 @@ section#banner{
     max-width: 350px;
 }
 
-.banner_headline h2{
+.banner_headline h2 {
     color: black;
     font-size: 21px;
     text-shadow: 0px 1px 0px rgb(116, 116, 116);
@@ -98,42 +98,43 @@ section#banner{
     margin-top: 30px;
 }
 
-.banner_options{
+.banner_options {
     height: 210px;
     display: flex;
 }
 
 .banner-1,
 .banner-2,
-.banner-3{
+.banner-3 {
     flex: 1;
     color: white;
     padding: 20px;
 }
 
-.banner-1{
+.banner-1 {
     background-color: rgb(100, 100, 100);
 }
 
-.banner-2{
+.banner-2 {
     background-color: rgb(65, 65, 65);
 }
 
-.banner-3{
+.banner-3 {
     background-color: rgb(0, 0, 0);
 }
 
-.banner-title{
+.banner-title {
     font-size: 21px;
 }
 
-.banner-desc{
+.banner-desc {
     font-size: 12px;
     /* margin-top: 20px;
     margin-bottom: 20px; */
     padding: 20px 0px;
 }
-.banner_options a{
+
+.banner_options a {
     display: inline-block;
     padding: 5px;
     border: 1px solid white;
@@ -142,72 +143,72 @@ section#banner{
     text-decoration: none;
 }
 
-.hours-options{
+.hours-options {
     display: flex;
     justify-content: space-between;
     padding: 17px 0px;
     border-bottom: 1px solid rgb(143, 143, 143);
 }
 
-.day-options{
+.day-options {
     font-size: 13px;
 }
 
-.open-hours{
+.open-hours {
     font-size: 13px;
 }
 
-section#geral{
+section#geral {
     display: flex;
     justify-content: center;
 }
 
-section#geral section{
+section#geral section {
     flex: 2;
 }
 
-section#geral aside{
+section#geral aside {
     flex: 1;
 }
 
-.widget-title{
+.widget-title {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.widget-title-text{
+.widget-title-text {
     color: black;
     font-size: 21px;
     font-weight: bold;
 }
 
-.widget-title-bar{
+.widget-title-bar {
     width: 50px;
     height: 2px;
     background-color: black;
     margin-top: 10px;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
 
-article{
+article {
     flex: 1;
     min-width: 300px;
     margin-right: 20px;
 }
 
-article a{
+article a {
     text-decoration: none;
 }
 
-article .news-date{
+article .news-date {
     display: flex;
 }
 
-article .news-posted-at{
+article .news-posted-at {
     background-color: black;
     color: white;
     font-size: 12px;
@@ -215,7 +216,7 @@ article .news-posted-at{
     margin-right: 2px;
 }
 
-article .news-comments{
+article .news-comments {
     background-color: white;
     border: 1px solid black;
     color: black;
@@ -223,36 +224,100 @@ article .news-comments{
     font-size: 12px;
 }
 
-article .news-thumbnail{
+article .news-thumbnail {
     margin-top: 30px;
 }
 
-article .news-thumbnail img{
+article .news-thumbnail img {
     width: 100%;
     height: auto;
 }
 
-article .news-title{
+article .news-title {
     padding: 25px 0px;
     color: black;
     font-size: 23px;
 }
 
-article .news-resume{
+article .news-resume {
     color: #5c5c5c;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 30px;
 }
 
-.departments-options{
+.departments-options {
     min-width: 200px;
 }
 
-.departament-1{
+.departament-1 {
     height: 140px;
     width: 140px;
     background-color: black;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+.widget-desc {
+    padding: 25px 0px;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.fm-1,
+.fm-2,
+.fm-3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.fm-1 {
+    background-color: rgb(100, 100, 100);
+}
+
+.fm-2 {
+
+    background-color: rgb(65, 65, 65);
+}
+
+.fm-3 {
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-area{
+    display: flex;
+    color: white;
+}
+
+.footer-areaItem{
+    flex: 1;
+}
+
+.title-footer{
+    color: white;
+    text-shadow: 0px 1px 0px #5c5c5c;
+}
+
+.bar-footer{
+    background-color: white;
+}
+
+.footer-copy{
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
 }

@@ -295,25 +295,25 @@ footer {
     background-color: rgb(0, 0, 0);
 }
 
-.footer-area{
+.footer-area {
     display: flex;
     color: white;
 }
 
-.footer-areaItem{
+.footer-areaItem {
     flex: 1;
 }
 
-.title-footer{
+.title-footer {
     color: white;
     text-shadow: 0px 1px 0px #5c5c5c;
 }
 
-.bar-footer{
+.bar-footer {
     background-color: white;
 }
 
-.footer-copy{
+.footer-copy {
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
@@ -322,7 +322,7 @@ footer {
     margin-top: 30px;
 }
 
-.menu-mobile{
+.menu-mobile {
     display: none;
     width: 40px;
     height: 40px;
@@ -331,76 +331,80 @@ footer {
     margin-right: 20px;
 }
 
-.mm-line{
+.mm-line {
     display: none;
     height: 3px;
     background-color: black;
 }
 
-@media (max-width:771px){
-    .banner_headline{
+@media (max-width:771px) {
+    .banner_headline {
         padding: 20px;
     }
-    
-    .banner_headline h1{
+
+    .banner_headline h1 {
         font-size: 55px;
     }
 
-    .banner_headline h2{
+    .banner_headline h2 {
         font-size: 17px;
     }
 
-    .banner_options{
+    .banner_options {
         height: auto;
         flex-direction: column;
     }
 
-    .container{
+    .container {
         flex-direction: column;
     }
 
     section#geral section,
-    section#geral aside{
+    section#geral aside {
         padding: 20px;
     }
 
-    .footer-menu{
+    .footer-menu {
         flex-direction: column;
     }
 
-    .footer-area{
+    .footer-area {
         flex-direction: column;
         padding: 20px;
     }
 
-    .footer-copy{
+    .footer-copy {
         padding-left: 20px;
     }
 
-    header .container{
+    header .container {
         flex-direction: row;
     }
 
-    header{
+    header {
         height: auto;
     }
 
-    nav ul{
+    nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
     }
 
-    .logo{
+    .logo {
         padding-left: 20px;
     }
 
-    .menu-mobile{
-        display:flex;
+    .menu-mobile {
+        display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .mm-line{
+    .mm-line {
         display: block;
     }
 }
